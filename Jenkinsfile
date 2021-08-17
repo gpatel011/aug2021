@@ -5,7 +5,7 @@ pipeline
      {
         stage ('echo')
         {
-            steps { sh "hellow world"  }
+            steps { sh echo "hellow world"  }
         }
  
         
